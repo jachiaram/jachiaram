@@ -1,29 +1,4 @@
 * { box-sizing: border-box; }
-/* 
-:root {
-    --text: #050315;
-    --background: #f5f5f5;
-    --primary: #70030a;
-    --secondary: #420000;
-    --accent: #939393;
-} */
-
-/* :root {
-    --text: #2b1b1f;
-    --background: #faf8f7;
-    --primary: #9d2933;
-    --secondary: #d67c3f;
-    --accent: #e8c4b8;
-} */
-
-/* 
-:root {
-    --text: #1a1a1a;
-    --background: #faf8f7;
-    --primary: #8b2e3b;
-    --secondary: #c04a5e;
-    --accent: #d4a5a5;
-} */
 
 :root {
     --text: #1f1f1f;
