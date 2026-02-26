@@ -23,7 +23,60 @@
       <h1>Blog</h1>
     </header>
     <main>
-        <p>Something</p>
+        <section class="schedule">
+          <h2>Posting Schedule</h2>
+          <table class="schedule-table">
+            <thead>
+              <tr>
+                <th>Topic Name</th>
+                <th>Post Date</th>
+                <th>Day of Week</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Basic Buffer Overflows</td>
+                    <td>Febrary 26, 2026</td>
+                    <td>Thursday</td>
+                    <td>Discuss the basics of buffer overflows.</td>
+                </tr>
+                <tr>
+                    <td>Introduction to Pinyin and Tones</td>
+                    <td>March 1, 2026</td>
+                    <td>Monday</td>
+                    <td>Talk about what Pinyin is and how it works.</td>
+                </tr>
+                <tr>
+                    <td>Spectre Attack</td>
+                    <td>March 15, 2026</td>
+                    <td>Sunday</td>
+                    <td>Discuss what the Spectre attack is, how it works, and the implications that come with the attack.</td>
+                </tr>
+            </tbody>
+          </table>
+        </section>
+
+        <section class="blog-entry">
+          <h3>Basic Buffer Overflows</h3>
+          <time datetime="2026-02-26">Febrary 26, 2026</time>
+          <div class="entry-content">
+            <p>In this post I will introduce the topic of Buffer overflows. So to begin we will need to understand what a buffer is. A buffer is a finite region of memory that can be used to store data. In this post we are only discussing buffers that exist on the stack (i.e. those that are relative to the current frame of the program). Now that we have defined a buffer we can talk about overflowing buffers, this happens when you write past the end of the buffer. This is dangerous as the control flow of the program can be hijacked allowing hackers to gain access to files they shouldn't be able to or perform other malicious actions using the program.</p>
+          </div>
+        </section>
+        <section class="blog-entry">
+          <h3>Introduction to Pinyin and Tones</h3>
+          <time datetime="2026-03-01">March 1, 2026</time>
+          <div class="entry-content">
+            <p>In this blog post I will discuss the basics of beginning to learn Mandarin Chinese, specifically pinyin. When you start learning Chinese usually the first thing you learn is pinyin which is a system used to romanize the different sounds in Mandarin. In pinyin there are different initials and finals, which when combined create different sounds. Each final also can be one of four different tone (1,2,3,4) high, rising, falling-rising, and falling. Each single character in chinese corresponds to one of these combinations. Watch the video below to get a brief introduction to Mandarin tones. (Credit: Chinese with LTL on Youtube) 今天就到这儿，谢谢!</p>
+            <div class="video-wrapper">
+              <video controls>
+                <source src="/resources/mandarin-tones.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          </div>
+        </section>
     </main>
   
     <footer>
